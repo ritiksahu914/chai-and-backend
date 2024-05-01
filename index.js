@@ -4,7 +4,7 @@ import "dotenv/config"
 const app=express()
 const port=3925
 
-const ritik="i am ritik"
+const ritik="i am ritiksahu914"
 
 app.get("/",(req,res)=>{
     res.send("Hello world")
