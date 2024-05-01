@@ -4,6 +4,8 @@ import "dotenv/config"
 const app=express()
 const port=3925
 
+const ritik="i am ritik"
+
 app.get("/",(req,res)=>{
     res.send("Hello world")
 })
